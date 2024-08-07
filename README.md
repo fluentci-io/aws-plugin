@@ -43,6 +43,8 @@ dag().call("https://pkg.fluentci.io/aws@v0.1.0?wasm=1", "setup", vec!["latest"])
 Github Actions:
 
 ```yaml
+- name: Uninstall aws-cli
+  run: sudo rm -rf `which aws`
 - name: Setup Fluent CI CLI
   uses: fluentci-io/setup-fluentci@v5
   with:
