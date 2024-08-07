@@ -2,10 +2,10 @@
 authors = [
   "Tsiry Sandratraina <tsiry.sndr@fluentci.io>",
 ]
-description = "Set up your CI/CD Pipeline with a specific version of typos-cli"
+description = "Set up your CI/CD Pipeline with a specific version of aws-cli"
 edition = "2021"
 license = "MIT"
-name = "typos"
+name = "aws"
 version = "0.1.0"
 
 [lib]

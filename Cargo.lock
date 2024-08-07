@@ -15,6 +15,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f1fdabc7756949593fe60f30ec81974b613357de856987752631dea1e3394c80"
 
 [[package]]
+name = "aws"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "extism-pdk",
+ "fluentci-pdk",
+]
+
+[[package]]
 name = "base64"
 version = "0.21.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -369,15 +378,6 @@ dependencies = [
  "indexmap",
  "toml_datetime",
  "winnow",
-]
-
-[[package]]
-name = "typos"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "extism-pdk",
- "fluentci-pdk",
 ]
 
 [[package]]
