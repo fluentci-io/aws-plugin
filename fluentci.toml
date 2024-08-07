@@ -1,0 +1,11 @@
+[package]
+name = "aws"
+version = "0.1.0"
+description = "CI/CD Plugin for AWS CLI"
+license = "MIT"
+keywords = [
+  "aws"
+]
+authors = [
+  "Tsiry Sandratrain <tsiry.sndr@fluentci.io>"
+]
