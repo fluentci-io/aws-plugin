@@ -11,6 +11,9 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v3
+      - name: Uninstall aws-cli
+        run: |
+          sudo rm -rf `which aws`
       - name: Setup example
         run: |
           mkdir -p example/.fluentci
